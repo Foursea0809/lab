@@ -7,60 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>課表</title>
     <style>
+
+        #font {
+            font-style: italic;
+            color: rgb(68, 0, 255);
+        }
+        .word{
+            color: red;
+            font-style: italic;
+        }
         body {
             background-color: white;
         }
-
-        tr td {
-            background-color: springgreen;
-            color: slateblue;
-        }
         
-        th.capitalize{
-            text-transform: capitalizee;
+        th {
             background-color: yellow;
             color: red;
         }
-        table{
-            border-radius :10px;
+        td{
+            background-color: rgb(0, 255, 34);
+            color: red;
+        }
+        
+        table {
+            border-radius: 10px;
         }
     </style>
 </head>
 
 <body>
     <table border="5" width="30%" align="center">
-        <caption style="background-color: lightskyblue;"><span style="font-size: 2rem;color: red;">課表</span></caption>
+        <caption >課表</caption>
         <thead>
             <tr style="background-color: lightblue;">
-                <th class="capitalize"></th>
-                <th class="capitalize">星期一</th>
-                <th class="capitalize">星期二</th>
-                <th class="capitalize">星期三</th>
-                <th class="capitalize">星期四</th>
-                <th class="capitalize">星期五</th>
+                <th></th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td align="center" <span style="background-color: lightblue;">9:10</span>
-                </td>
-                <td align="center">國</td>
-                <td align="center">英</td>
-                <td align="center">數</td>
-                <td align="center">自</td>
-                <td align="center">社</td>
-            </tr>
-            <tr>
-                <td align="center" <span style="background-color: lightblue;">10:10</span>
-                </td>
-                <td align="center">國</td>
-                <td align="center">英</td>
-                <td align="center">數</td>
-                <td align="center">自</td>
-                <td align="center">社</td>
-            </tr>
-            <tr>
-                <td align="center" <span style="background-color: lightblue;">11:10</span>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">9:10</span>
                 </td>
                 <td align="center">國</td>
                 <td align="center">英</td>
@@ -70,13 +61,7 @@
             </tr>
             <tr>
                 <td align="center" <span style="background-color: lightblue;">
-                    </span>12:10</span>
-                </td>
-                <td align="center" colspan="5" <span style="background-color:lightgoldenrodyellow;font-size: 2rem;">午休</span>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" <span style="background-color: lightblue;">13:10</span>
+                    <span class="word">10:10</span>
                 </td>
                 <td align="center">國</td>
                 <td align="center">英</td>
@@ -85,7 +70,8 @@
                 <td align="center">社</td>
             </tr>
             <tr>
-                <td align="center" <span style="background-color: lightblue;">14:10</span>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">11:10</span>
                 </td>
                 <td align="center">國</td>
                 <td align="center">英</td>
@@ -94,7 +80,15 @@
                 <td align="center">社</td>
             </tr>
             <tr>
-                <td align="center" <span style="background-color: lightblue;">15:10</span>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">12:10</span>
+                </td>
+                 <td align="center" id="font" colspan="5">午休
+                </td>
+            </tr>
+            <tr>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">13:10</span>
                 </td>
                 <td align="center">國</td>
                 <td align="center">英</td>
@@ -103,7 +97,28 @@
                 <td align="center">社</td>
             </tr>
             <tr>
-                <td align="center" <span style="background-color: lightblue;">16:10</span>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">14:10</span>
+                </td>
+                <td align="center">國</td>
+                <td align="center">英</td>
+                <td align="center">數</td>
+                <td align="center">自</td>
+                <td align="center">社</td>
+            </tr>
+            <tr>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">15:10</span>
+                </td>
+                <td align="center">國</td>
+                <td align="center">英</td>
+                <td align="center">數</td>
+                <td align="center">自</td>
+                <td align="center">社</td>
+            </tr>
+            <tr>
+                <td align="center" <span style="background-color: lightblue;">
+                    <span class="word">16:10</span>
                 </td>
                 <td colspan="5"></td>
             </tr>
